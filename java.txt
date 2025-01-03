@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class Outer_class
+{
+int a=10;
+        class Inner_class
+        {
+        int b=20;
+        }
+}
+
+
+class Outer_Inner
+{
+public static void main(String args[])
+{
+Outer_class ob=new Outer_class();
+System.out.println("Variable value of outer class:"+ob.a);
+Outer_class.Inner_class ob1=ob.new Inner_class();
+System.out.println("variable value of inner class:"+ob1.b);
+}
+}
+        
