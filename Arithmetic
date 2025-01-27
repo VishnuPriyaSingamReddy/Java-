@@ -1,0 +1,19 @@
+import java.util.*;
+class Arithmetic
+{
+public static void main(String args[])
+{
+int n1,n2;
+Scanner ob=new Scanner(System.in);
+System.out.println("Enter the number 1:");
+n1=ob.nextInt();
+System.out.println("Enter the number 2:");
+n2=ob.nextInt();
+System.out.print("Addition:"+(n1+n2));
+System.out.print("Subtraction:"+(n1-n2));
+System.out.print("Multiplication:"+(n1*n2));
+System.out.print("Division:"+(n1/n2));
+System.out.print("Modulo division:"+(n1%n2));
+}
+}
+
