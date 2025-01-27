@@ -1,0 +1,19 @@
+import java.util.*;
+class Relation
+{
+public static void main(String args[])
+{
+int n1,n2;
+Scanner ob=new Scanner(System.in);
+System.out.println("Enter the number1:");
+n1=ob.nextInt();
+System.out.println("Enter the number2:");
+n2=ob.nextInt();
+System.out.println("less than of two numbers:"+(n1<n2));
+System.out.println("greater than of two numbers:"+(n1>n2));
+System.out.println("less than or equal of two numbers:"+(n1<=n2));
+System.out.println("greater than or equal of two numbers:"+(n1>=n2));
+System.out.println("equal of two numbers:"+(n1==n2));
+System.out.println("not equals of of two numbers:"+(n1!=n2));
+}
+}
